@@ -5,7 +5,7 @@ bool riconoscimento (char a){
     if ((b>=65)and(b<=90)){
         return true;
     }
-    else if ((b>=97)and(b>=122)){
+    else if ((b>=97)and(b<=122)){
         return true;
     }
     else {
