@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     char a;
     cin >> a;
-    if (riconoscimento (a)==true){
+    if (riconoscimento (a)==true) {
         cout << conversione (a);
     }
     else {
